@@ -1,3 +1,3 @@
-module weather
+module MicroserviceTwo
 
 go 1.21

@@ -1,5 +1,5 @@
 FROM golang:alpine
-WORKDIR /weather
+WORKDIR /secondMicroservice
 ADD . .
 RUN go mod tidy
 RUN go build main.go

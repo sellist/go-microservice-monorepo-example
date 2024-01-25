@@ -1,9 +1,9 @@
 version: '3'
 services:
   weather:
-    build: weather/.
+    build: MicroserviceTwo/.
   time:
-    build: debugTime/.
+    build: MicroserviceOne/.
   gateway:
     image: nginx
     ports:

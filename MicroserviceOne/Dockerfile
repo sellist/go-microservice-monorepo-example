@@ -1,5 +1,5 @@
 FROM golang:alpine
-WORKDIR /debugTime
+WORKDIR /firstMicroservice
 ADD . .
 RUN go mod tidy
 RUN go build main.go
